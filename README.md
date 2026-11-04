@@ -6,7 +6,7 @@ Explainable AI decision support for essential-medicine stock-out risk, constrain
 
 Live website: **https://medflow-africa.vercel.app**.
 
-Source repository: **https://github.com/alumond/medflow-africa** (private).
+Source repository: **https://github.com/alumond/medflow-africa** (public).
 
 ## How the app works
 
