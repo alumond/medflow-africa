@@ -1,0 +1,11 @@
+medicine_id,medicine_name,category,pack_size,safety_stock_days,minimum_shelf_life_days,active
+M01,Amoxicillin 500 mg,antibiotic,100,21,7,True
+M02,Artemether / lumefantrine,antimalarial,24,21,7,True
+M03,Oral rehydration salts,rehydration,100,21,7,True
+M04,Oxytocin 10 IU,maternal_health,10,21,7,True
+M05,Paracetamol 500 mg,analgesic,100,21,7,True
+M06,Metformin 500 mg,chronic_care,100,21,7,True
+M07,Zinc sulphate 20 mg,nutrition,100,21,7,True
+M08,Ceftriaxone 1 g,antibiotic,10,21,7,True
+M09,Ferrous sulphate,maternal_health,100,21,7,True
+M10,Amlodipine 5 mg,chronic_care,100,21,7,True

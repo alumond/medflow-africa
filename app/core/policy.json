@@ -1,0 +1,18 @@
+{
+  "version": "policy-1.0.0",
+  "schema_version": "1.0.0",
+  "seed": 42,
+  "district": "Kawara District",
+  "lookback_weeks": 12,
+  "quality_minimum": 0.85,
+  "quality_strong": 0.95,
+  "reporting_target": 0.95,
+  "medium_probability": 0.3,
+  "high_probability": 0.6,
+  "recipient_target_days": 30,
+  "transport_buffer_days": 3,
+  "max_upload_bytes": 8388608,
+  "max_rows": 100000,
+  "retention_days": 90,
+  "balance_tolerance": 0
+}

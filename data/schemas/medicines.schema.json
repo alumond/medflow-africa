@@ -1,0 +1,62 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "medicine_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,50}$",
+      "title": "Medicine Id",
+      "type": "string"
+    },
+    "medicine_name": {
+      "maxLength": 120,
+      "minLength": 1,
+      "title": "Medicine Name",
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "antibiotic",
+        "antimalarial",
+        "maternal_health",
+        "analgesic",
+        "rehydration",
+        "chronic_care",
+        "nutrition"
+      ],
+      "title": "Category",
+      "type": "string"
+    },
+    "pack_size": {
+      "exclusiveMinimum": 0,
+      "maximum": 100000,
+      "title": "Pack Size",
+      "type": "integer"
+    },
+    "safety_stock_days": {
+      "maximum": 365,
+      "minimum": 0,
+      "title": "Safety Stock Days",
+      "type": "integer"
+    },
+    "minimum_shelf_life_days": {
+      "maximum": 730,
+      "minimum": 0,
+      "title": "Minimum Shelf Life Days",
+      "type": "integer"
+    },
+    "active": {
+      "default": true,
+      "title": "Active",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "medicine_id",
+    "medicine_name",
+    "category",
+    "pack_size",
+    "safety_stock_days",
+    "minimum_shelf_life_days"
+  ],
+  "title": "Medicine",
+  "type": "object"
+}

@@ -1,0 +1,11 @@
+facility_id,facility_name,facility_type,location_type,latitude,longitude,lead_time_days,reporting_target,active
+F01,Kawara District Hospital,hospital,urban,8.44462,4.348,10,0.95,True
+F02,Central Health Centre,health_centre,urban,8.32801,4.41143,10,0.95,True
+F03,Oke Rural Clinic,clinic,rural,8.47567,4.55654,21,0.95,True
+F04,Afon Health Centre,health_centre,peri_urban,8.5255,4.36782,10,0.95,True
+F05,Ile Community Clinic,clinic,peri_urban,8.37501,4.34954,10,0.95,True
+F06,Bode Rural Clinic,clinic,rural,8.30996,4.50171,21,0.95,True
+F07,Riverbank Health Centre,health_centre,peri_urban,8.24849,4.40363,10,0.95,True
+F08,Asa Community Clinic,clinic,rural,8.44796,4.51438,21,0.95,True
+F09,Northgate Health Centre,health_centre,peri_urban,8.31054,4.52857,10,0.95,True
+F10,Gidan Rural Clinic,clinic,rural,8.49902,4.34208,21,0.95,True

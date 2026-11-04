@@ -1,0 +1,73 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "order_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,50}$",
+      "title": "Order Id",
+      "type": "string"
+    },
+    "facility_id": {
+      "title": "Facility Id",
+      "type": "string"
+    },
+    "medicine_id": {
+      "title": "Medicine Id",
+      "type": "string"
+    },
+    "order_date": {
+      "format": "date",
+      "title": "Order Date",
+      "type": "string"
+    },
+    "quantity_ordered": {
+      "exclusiveMinimum": 0,
+      "title": "Quantity Ordered",
+      "type": "integer"
+    },
+    "expected_delivery_date": {
+      "format": "date",
+      "title": "Expected Delivery Date",
+      "type": "string"
+    },
+    "actual_delivery_date": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Actual Delivery Date"
+    },
+    "quantity_delivered": {
+      "minimum": 0,
+      "title": "Quantity Delivered",
+      "type": "integer"
+    },
+    "order_status": {
+      "enum": [
+        "pending",
+        "partial",
+        "fulfilled",
+        "cancelled"
+      ],
+      "title": "Order Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "order_id",
+    "facility_id",
+    "medicine_id",
+    "order_date",
+    "quantity_ordered",
+    "expected_delivery_date",
+    "quantity_delivered",
+    "order_status"
+  ],
+  "title": "Order",
+  "type": "object"
+}

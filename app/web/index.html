@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ef">
+  <meta name="description" content="MedFlow Africa — essential medicines stock-out early warning and human-reviewed redistribution.">
+  <title>MedFlow Africa — District intelligence</title>
+  <link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/app.css">
+  <link rel="stylesheet" href="/assets/ai.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to district intelligence</a>
+  <header class="masthead">
+    <a href="#overview" class="brand" aria-label="MedFlow Africa home"><img src="/assets/mark.svg" alt="" width="37" height="37"><span>MedFlow <span class="brand-africa">AFRICA</span></span></a>
+    <div class="brand-purpose">MEDICINE AVAILABILITY<br><span>DISTRICT SUPPLY INTELLIGENCE</span></div>
+    <div class="masthead-actions"><button class="button secondary compact" id="importButton" data-action="import">Import data <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M8 11V2M5 5l3-3 3 3M2 10v4h12v-4"/></svg></button><button class="avatar" data-action="audit" aria-label="Open workspace audit history">DM</button></div>
+  </header>
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="nav-links">
+      <a href="#overview" data-page="overview"><span class="nav-number">01</span> District overview</a>
+      <a href="#risks" data-page="risks"><span class="nav-number">02</span> Risk explorer</a>
+      <a href="#planner" data-page="planner"><span class="nav-number">03</span> Redistribution planner</a>
+      <a href="#quality" data-page="quality"><span class="nav-number">04</span> Data quality</a>
+      <a href="#report" data-page="report"><span class="nav-number">05</span> Supply brief</a>
+
+    </div>
+    <span class="local-context" id="districtLabel">Kawara District <span aria-hidden="true">⌄</span></span>
+  </nav>
+  <main id="main" tabindex="-1">
+    <div class="initial-state"><div class="loading-line"></div><p>Preparing the district briefing…</p><span>Checking source records and updating the risk forecasts.</span></div>
+  </main>
+  <footer class="site-footer"><span>MedFlow Africa <span class="footer-divider">/</span> Evidence into action.</span><span>Human-reviewed decision support <span class="footer-divider">·</span> <button class="text-link" data-action="method">Method & limitations ↗</button></span></footer>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <dialog id="detailDialog" class="drawer" aria-labelledby="detailTitle"><div id="detailContent"></div></dialog>
+  <dialog id="modal" class="modal" aria-labelledby="modalTitle"><div id="modalContent"></div></dialog>
+</body>
+</html>

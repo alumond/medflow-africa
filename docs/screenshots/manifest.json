@@ -1,0 +1,114 @@
+{
+  "captured_at": "2026-11-04T07:31:18.268Z",
+  "website": "https://medflow-africa.vercel.app",
+  "method": "Playwright",
+  "desktop_viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "note": "Fresh isolated browser workspace with bundled example records. No stock decisions or emails submitted.",
+  "captures": [
+    {
+      "file": "01-district-overview.png",
+      "title": "District overview",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-overview#overview",
+      "bytes": 296310
+    },
+    {
+      "file": "02-risk-explorer.png",
+      "title": "Risk explorer — first screen",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-risks#risks",
+      "bytes": 124334
+    },
+    {
+      "file": "02b-risk-explorer-full.png",
+      "title": "Risk explorer — complete table",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-risks#risks",
+      "bytes": 1838496
+    },
+    {
+      "file": "03-risk-detail.png",
+      "title": "Individual stock risk and model factors",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-risks#risks",
+      "bytes": 219232
+    },
+    {
+      "file": "11-integrated-explanation.png",
+      "title": "Contextual explanation with source records",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-risks#risks",
+      "bytes": 245070
+    },
+    {
+      "file": "04-redistribution-planner.png",
+      "title": "Safe redistribution options",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-planner#planner",
+      "bytes": 248671
+    },
+    {
+      "file": "05-transfer-review.png",
+      "title": "Human review and safety constraints",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-planner#planner",
+      "bytes": 234473
+    },
+    {
+      "file": "06-data-quality.png",
+      "title": "Data quality and rejected records",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-quality#quality",
+      "bytes": 257146
+    },
+    {
+      "file": "07-data-import.png",
+      "title": "Four-file data import",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-quality#quality",
+      "bytes": 224085
+    },
+    {
+      "file": "08-supply-brief.png",
+      "title": "Operational executive preview",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-report#report",
+      "bytes": 283047
+    },
+    {
+      "file": "12-project-resources.png",
+      "title": "Labelled example project resources",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-report#report",
+      "bytes": 294703
+    },
+    {
+      "file": "13-action-register.png",
+      "title": "Actions, owners and deadlines",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-report#report",
+      "bytes": 273961
+    },
+    {
+      "file": "10-escalation-draft.png",
+      "title": "Separate escalation draft — no email sent",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-report#report",
+      "bytes": 378666
+    },
+    {
+      "file": "09-report-preview.png",
+      "title": "Full report preview and export controls",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-report#report",
+      "bytes": 217748
+    },
+    {
+      "file": "09b-complete-report.png",
+      "title": "All thirteen report sections",
+      "url": "https://medflow-africa.vercel.app/api/reports/action-report?window=14",
+      "bytes": 1115191
+    },
+    {
+      "file": "14-model-performance.png",
+      "title": "Model evaluation, drift and review feedback",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-ai#ai",
+      "bytes": 375734
+    },
+    {
+      "file": "15-mobile-overview.png",
+      "title": "Mobile district overview",
+      "url": "https://medflow-africa.vercel.app/?capture=20261104-overview#overview",
+      "bytes": 232163
+    }
+  ]
+}

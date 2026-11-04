@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+*.sqlite*
+reports/*.html
+reports/*.eml
+.DS_Store
+.vercel/
+.hypothesis/
+.vercel
+.env*
+
+# Share the placeholder template; never publish credentials.
+!.env.example
+
+outputs/*.zip
+
+node_modules/
+playwright-report/
+test-results/

@@ -1,0 +1,75 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "facility_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,50}$",
+      "title": "Facility Id",
+      "type": "string"
+    },
+    "facility_name": {
+      "maxLength": 120,
+      "minLength": 1,
+      "title": "Facility Name",
+      "type": "string"
+    },
+    "facility_type": {
+      "enum": [
+        "hospital",
+        "health_centre",
+        "clinic"
+      ],
+      "title": "Facility Type",
+      "type": "string"
+    },
+    "location_type": {
+      "enum": [
+        "urban",
+        "peri_urban",
+        "rural"
+      ],
+      "title": "Location Type",
+      "type": "string"
+    },
+    "latitude": {
+      "maximum": 90.0,
+      "minimum": -90.0,
+      "title": "Latitude",
+      "type": "number"
+    },
+    "longitude": {
+      "maximum": 180.0,
+      "minimum": -180.0,
+      "title": "Longitude",
+      "type": "number"
+    },
+    "lead_time_days": {
+      "maximum": 365,
+      "minimum": 0,
+      "title": "Lead Time Days",
+      "type": "integer"
+    },
+    "reporting_target": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Reporting Target",
+      "type": "number"
+    },
+    "active": {
+      "default": true,
+      "title": "Active",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "facility_id",
+    "facility_name",
+    "facility_type",
+    "location_type",
+    "latitude",
+    "longitude",
+    "lead_time_days",
+    "reporting_target"
+  ],
+  "title": "Facility",
+  "type": "object"
+}

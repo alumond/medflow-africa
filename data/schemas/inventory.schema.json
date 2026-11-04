@@ -1,0 +1,93 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "record_id": {
+      "pattern": "^[A-Za-z0-9_-]{1,50}$",
+      "title": "Record Id",
+      "type": "string"
+    },
+    "reporting_date": {
+      "format": "date",
+      "title": "Reporting Date",
+      "type": "string"
+    },
+    "facility_id": {
+      "title": "Facility Id",
+      "type": "string"
+    },
+    "medicine_id": {
+      "title": "Medicine Id",
+      "type": "string"
+    },
+    "opening_balance": {
+      "minimum": 0,
+      "title": "Opening Balance",
+      "type": "integer"
+    },
+    "quantity_received": {
+      "minimum": 0,
+      "title": "Quantity Received",
+      "type": "integer"
+    },
+    "quantity_dispensed": {
+      "minimum": 0,
+      "title": "Quantity Dispensed",
+      "type": "integer"
+    },
+    "adjustments": {
+      "maximum": 10000000,
+      "minimum": -10000000,
+      "title": "Adjustments",
+      "type": "integer"
+    },
+    "closing_balance": {
+      "minimum": 0,
+      "title": "Closing Balance",
+      "type": "integer"
+    },
+    "stockout_days": {
+      "maximum": 7,
+      "minimum": 0,
+      "title": "Stockout Days",
+      "type": "integer"
+    },
+    "expiry_date": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Expiry Date"
+    },
+    "quantity_near_expiry": {
+      "minimum": 0,
+      "title": "Quantity Near Expiry",
+      "type": "integer"
+    },
+    "report_submitted_on_time": {
+      "title": "Report Submitted On Time",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "record_id",
+    "reporting_date",
+    "facility_id",
+    "medicine_id",
+    "opening_balance",
+    "quantity_received",
+    "quantity_dispensed",
+    "adjustments",
+    "closing_balance",
+    "stockout_days",
+    "quantity_near_expiry",
+    "report_submitted_on_time"
+  ],
+  "title": "Inventory",
+  "type": "object"
+}

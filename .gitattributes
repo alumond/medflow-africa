@@ -1,0 +1,7 @@
+# Preserve generated CSV bytes and their recorded checksums.
+*.csv -text whitespace=cr-at-eol
+*.png -text
+*.ttf -text
+# Markdown hard line breaks and the supplied font license contain intentional spaces.
+*.md whitespace=-blank-at-eol
+app/web/assets/garamond-OFL.txt whitespace=-blank-at-eol

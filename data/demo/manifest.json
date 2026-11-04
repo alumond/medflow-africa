@@ -1,0 +1,14 @@
+{
+  "version": "synthetic-1.0.0-seed42",
+  "seed": 42,
+  "cutoff": "2026-11-01",
+  "synthetic": true,
+  "scenarios": {
+    "surge_late_delivery": "F03/M01",
+    "safe_donor": "F02/M01",
+    "near_expiry": "F01/M01",
+    "weak_evidence": "F10/M01",
+    "invalid_balance": "F05/M06",
+    "zero_consumption": "F07/M10"
+  }
+}
